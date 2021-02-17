@@ -1,0 +1,11 @@
+n=int(input())
+bib=map(int, input().split())
+bib=sorted(bib)
+
+for i in range(len(bib)):
+    if(i!=len(bib)-1):
+        if(bib[i]!=bib[i-1] and bib[i]!=bib[i+1]):
+            print(bib[i])
+            break;
+    else:
+        print(bib[i])
