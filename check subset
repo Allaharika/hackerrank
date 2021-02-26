@@ -1,0 +1,13 @@
+# Enter your code here. Read input from STDIN. Print output to STDOUT
+test_cases=int(input())
+found=0
+for i in range(test_cases):
+    e1=int(input())
+    e1s=set(map(int,input().split()))
+    e2=int(input())
+    e2s=set(map(int,input().split()))
+    if(e1>e2):
+        print('False')
+    else:
+       z=e1s.issubset(e2s)
+       print(z)
