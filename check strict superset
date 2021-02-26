@@ -1,0 +1,11 @@
+# Enter your code here. Read input from STDIN. Print output to STDOUT
+s=set(map(int,input().split()))
+n=int(input())
+found=True
+for i in range(n):
+    a=set(map(int,input().split()))
+    if((a&s != a) or (a == s)):
+        found="False"
+        break
+print(found)
+    
