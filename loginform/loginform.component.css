@@ -1,0 +1,57 @@
+.box{ 
+	width:screen; 
+	height:45px; 
+}  
+.red{ 
+	background:rgb(132, 0, 255); 
+} 
+.box1{
+    width:screen;
+    font-size: larger;
+    color: white;   
+    
+}
+.grey{
+    background:rgb(73, 73, 71);
+}
+.left{
+    Display: inline-block;
+    text-align: left;
+    height: 0px;
+}
+.right{
+    margin-right: 10px;
+    Display: inline-block;
+    text-align: right;
+    float: right;
+}
+.m{
+    font-size: x-large;
+}
+.sn{
+    color: yellow;
+    font-size: xx-large;
+}
+.form{
+    margin-top: 30px;
+    width: 200px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+.box2{
+    width: auto;
+    height: auto;
+    margin:0px;
+}
+.login{
+    background-color: turquoise;
+}
+.input-box{
+    margin-top: 15px;
+}
+.submit{
+    background: blue;
+    text-align: center;
+    margin-top: 30px;
+}
